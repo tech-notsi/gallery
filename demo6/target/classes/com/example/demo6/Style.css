@@ -1,0 +1,30 @@
+.root { -fx-background-color: #000080 ;
+}
+
+#box {
+    -fx-grid-gap: 10px 20px;
+}
+#buttons {
+    -fx-background-color: transparent;
+    -fx-font-size: 18px;
+    -fx-color: #222;
+
+}
+#button {
+
+    -fx-text-fill: red;
+    -fx-alignment: CENTER;
+    -fx-background-color: transparent;
+    -fx-border-color: #00ffef;
+    -fx-border-radius: 50;
+    -fx-font: bold;
+
+}
+#button:hover {
+    -fx-background-color: white;
+        -fx-border-radius: 50;
+        -fx-cursor: pointer;
+}
+#images:hover{
+    -fx-cursor: pointer;
+}
